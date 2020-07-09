@@ -1,5 +1,6 @@
 import Head from "next/head";
 import Link from "next/link";
+import Date from "../components/date";
 import Layout, { siteTitle } from "../components/layout";
 import { getSortedPostsData } from "../lib/posts";
 
@@ -29,7 +30,7 @@ const Home = ({ allPostsData }) => {
               </Link>
               <br />
               {id}
-              <small>{date}</small>
+              <Date />
             </li>
           ))}
         </ul>
