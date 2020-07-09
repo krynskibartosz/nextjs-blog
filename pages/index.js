@@ -30,7 +30,7 @@ const Home = ({ allPostsData }) => {
               </Link>
               <br />
               {id}
-              <Date />
+              <Date dateString={date} />
             </li>
           ))}
         </ul>
