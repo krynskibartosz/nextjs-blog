@@ -28,7 +28,6 @@ const Home = ({ allPostsData }) => {
               <Link href="/posts/[id]" as={`/posts/${id}`}>
                 {title}
               </Link>
-              <br />
               {id}
               <Date dateString={date} />
             </li>

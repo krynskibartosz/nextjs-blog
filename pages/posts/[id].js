@@ -24,9 +24,7 @@ const Post = ({ postData }) => {
     <Layout>
       <title>{postData.title}</title>
       {postData.title}
-      <br />
       {postData.id}
-      <br />
       <Date dateString={postData.date} />
       <div dangerouslySetInnerHTML={{ __html: postData.contentHtml }}></div>
     </Layout>
